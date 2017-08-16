@@ -1,8 +1,10 @@
 <scm-navbar></scm-navbar>
 <div class="container-fluid">
   <div class="row">
-    <scm-sidebar></scm-sidebar>
-    <main class="col-10 offset2 pt-3"></main>
+    <scm-sidebar (changedMenu)="currentMenu = $event"></scm-sidebar>
+    <main class="col-10 offset-2 pt-3" [ngSwitch]=" currentMenu">
+      <router-outlet></router-outlet>
+    </main>
   </div>
 </div>
 <scm-footer></scm-footer>

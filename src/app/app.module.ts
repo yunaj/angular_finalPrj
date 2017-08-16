@@ -8,9 +8,8 @@ import { ProductModule } from './product/product.module';
 import { CategoryModule } from './category/category.module';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { FooterComponent } from './footer/footer.component';
+import { AppRoutingModule } from './app-routing.module';
+
 
 
 @NgModule({
@@ -23,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     //app modules
     ScmMainModule,
     ProductModule,
-    CategoryModule
+    CategoryModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
