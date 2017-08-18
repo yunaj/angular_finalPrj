@@ -1,0 +1,36 @@
+[debug] [2017-08-16T07:32:58.747Z] ----------------------------------------------------------------------
+[debug] [2017-08-16T07:32:58.759Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\yuna\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-08-16T07:32:58.761Z] CLI Version:   3.9.2
+[debug] [2017-08-16T07:32:58.761Z] Platform:      win32
+[debug] [2017-08-16T07:32:58.761Z] Node Version:  v6.11.1
+[debug] [2017-08-16T07:32:58.766Z] Time:          Wed Aug 16 2017 16:32:58 GMT+0900 (대한민국 표준시)
+[debug] [2017-08-16T07:32:58.766Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-16T07:32:58.852Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-16T07:32:58.854Z] > authorizing via signed-in user
+[debug] [2017-08-16T07:32:58.862Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-16T07:32:58.863Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/6JkBphR0mwmaerKYHVfYUhIxSgn7_-VGWjyG0R9Wa4S_-cmwAPEgT5Lt8MuQeKdr',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Aug 16 2017 16:32:58 GMT+0900 (대한민국 표준시)
+[debug] [2017-08-16T07:32:59.528Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-16T07:32:59.551Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/angular-ex-9432b  
+ Wed Aug 16 2017 16:32:59 GMT+0900 (대한민국 표준시)
+[debug] [2017-08-16T07:33:00.711Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-16T07:33:00.714Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/angular-ex-9432b/tokens  
+ Wed Aug 16 2017 16:33:00 GMT+0900 (대한민국 표준시)
+[debug] [2017-08-16T07:33:01.442Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\yuna\Documents\meanstack_prj\simple-commerce-manager'...
+[info] 
+[debug] [2017-08-16T07:33:01.458Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/angular-ex-9432b  
+ Wed Aug 16 2017 16:33:01 GMT+0900 (대한민국 표준시)
+[debug] [2017-08-16T07:33:02.547Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-16T07:33:02.549Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/102422323051/clients/_:getWebAppConfig  
+ Wed Aug 16 2017 16:33:02 GMT+0900 (대한민국 표준시)
+[debug] [2017-08-16T07:33:03.408Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+
